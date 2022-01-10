@@ -172,6 +172,7 @@
 	}
 </script>
 
+
 <body>
   <div class="main">
     <Heading text={'Chat App'} />
