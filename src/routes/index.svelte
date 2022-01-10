@@ -172,7 +172,6 @@
 	}
 </script>
 
-
 <body>
   <div class="main">
     <Heading text={'Chat App'} />
@@ -187,6 +186,6 @@
       <input id="m" autocomplete="off" {placeholder} bind:value={message} />
       <button on:click|preventDefault={handleSubmit}>Send</button>
     </form>
-		<p id="numUsers">There {numUsersConnected == 1 ? 'is' : 'are'} {numUsersConnected} {numUsersConnected == 1 ? 'user' : 'users'} currently chatting!</p>
+		<p id="numUsers">There {numUsersConnected == 1 ? 'is' : 'are'} {numUsersConnected} {numUsersConnected == 1 ? 'user' : 'users'} currently chatting! say Hello!</p>
   </div>
 </body>
