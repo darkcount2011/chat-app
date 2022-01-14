@@ -161,7 +161,7 @@
 
 		updateScroll();
 
-		message = " ";
+		message = "";
 	}
 	
 	function updateScroll() {
