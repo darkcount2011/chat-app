@@ -152,7 +152,7 @@
 
 		if (message.slice(0, 5) == '/nick') {
 			let newName = message.slice(6);
-			messageString = `Server: ${name} changed their nickname to ${newName}`;
+			messageString = `Server: ${name} changed their nickname to ${newName}!`;
 			name = newName;
 		}
 
