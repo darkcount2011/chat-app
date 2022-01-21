@@ -370,54 +370,6 @@
       transform: translateX(6px);
     }
   }
-  @-webkit-keyframes flash {
-    0% {
-      opacity: 1;
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-      filter: alpha(opacity=100);
-    }
-    50% {
-      opacity: 0.5;
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-      filter: alpha(opacity=50);
-    }
-  }
-  @-moz-keyframes flash {
-    0% {
-      opacity: 1;
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-      filter: alpha(opacity=100);
-    }
-    50% {
-      opacity: 0.5;
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-      filter: alpha(opacity=50);
-    }
-  }
-  @-o-keyframes flash {
-    0% {
-      opacity: 1;
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-      filter: alpha(opacity=100);
-    }
-    50% {
-      opacity: 0.5;
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-      filter: alpha(opacity=50);
-    }
-  }
-  @keyframes flash {
-    0% {
-      opacity: 1;
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-      filter: alpha(opacity=100);
-    }
-    50% {
-      opacity: 0.5;
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-      filter: alpha(opacity=50);
-    }
-  }
 </style>
 
 <script>
