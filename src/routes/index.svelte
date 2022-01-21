@@ -115,7 +115,7 @@
 	const socket = io();
 
 	const placeholder = "Type your message here...";
-	const greeting = `You have joined the chat. Use '/nick your_nickname' to set your nickname!`
+	const greeting = `Hi, you have joined the chat. Use '/nick your_nickname' to set your nickname!`
   let messages = [greeting];
 	let message = "";
 	let name = 'Anonymous';
@@ -152,7 +152,7 @@
 
 		if (message.slice(0, 5) == '/nick') {
 			let newName = message.slice(6);
-			messageString = `Server: ${name} changed their nickname to ${newName}`;
+			messageString = `Server: ${name} changed their nickname to ${newName}!`;
 			name = newName;
 		}
 
