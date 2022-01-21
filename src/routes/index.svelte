@@ -170,6 +170,10 @@
 			chatWindow.scrollTop = chatWindow.scrollHeight;			
 		}, 0);
 	}
+
+  function lintError() {
+    console.log("this should not be seen");
+  }
 </script>
 
 <body>
