@@ -170,6 +170,10 @@
 			chatWindow.scrollTop = chatWindow.scrollHeight;			
 		}, 0);
 	}
+
+  function welp(params) {
+    print();
+  }
 </script>
 
 <body>
