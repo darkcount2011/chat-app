@@ -1,6 +1,6 @@
 <style>
 	main {
-		position: relative;
+		position: absolute;
 		max-width: 56em;
 		background: #B34E7E;
 		padding: 2em;

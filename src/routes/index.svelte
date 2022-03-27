@@ -114,7 +114,7 @@
 
 	const socket = io();
 
-	const placeholder = "Type your message here...";
+	const placeholder = "Type your message here please...";
 	const greeting = `Hi, you have joined the chat. Use '/nick your_nickname' to set your nickname!`
   let messages = [greeting];
 	let message = "";
