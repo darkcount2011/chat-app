@@ -145,7 +145,7 @@
 		message = message.trim();
 		
 		if (message == '') {
-			return;
+			
 		}
 
 		let messageString = `${name}: ${message}`;
@@ -170,10 +170,6 @@
 			chatWindow.scrollTop = chatWindow.scrollHeight;			
 		}, 0);
 	}
-
-  function welp(params) {
-    print();
-  }
 </script>
 
 <body>
